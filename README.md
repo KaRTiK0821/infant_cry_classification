@@ -38,7 +38,6 @@ infant_cry_classification/
 ### 1️⃣ **Clone the Repository**
 ```sh
 git clone https://github.com/KaRTiK0821/infant_cry_classification.git
-cd infant_cry_classification
 ```
 
 ### 2️⃣ **Install Dependencies**
