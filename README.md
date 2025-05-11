@@ -7,6 +7,10 @@ Infant Cry Classification is a machine learning project that uses a **Siamese Ne
 - **Tired**
 - **Discomfort**
 - **Burping**
+- **Asphyxia**
+- **Deaf**
+- **Normal**
+- **Pain** 
 
 The model is trained on a dataset of **infant cry audio recordings** and extracts **MFCC (Mel-Frequency Cepstral Coefficients)** features to determine the similarity between different cry sounds. This system helps in identifying the reason behind an infant's cry based on audio patterns.
 
@@ -21,16 +25,9 @@ The model is trained on a dataset of **infant cry audio recordings** and extract
 ```
 infant_cry_classification/
 │-- dataset/                     # Folder containing infant cry audio files (.wav)
-│   │-- belly_pain/
-│   │-- hungry/
-│   │-- tired/
-│   │-- discomfort/
-│   │-- burping/
 │-- models/                      # Saved trained models
-│-- train_snn.py                  # Train Siamese Neural Network
-│-- test_snn.py                   # Test the trained model
-│-- feature_extraction.py         # Extracts MFCC features from audio files
-│-- siamese_model.py              # Defines the SNN architecture
+│-- snn1.py                      # SNN Model for Donate-a-cry dataset
+│-- snn2.py                       # SNN Model for BabyChillanto Dataset
 │-- README.md                     # Project documentation
 ```
 
