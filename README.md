@@ -75,6 +75,7 @@ python test_snn.py --audio path/to/audio.wav
 This project is open-source and licensed under the **MIT License**.
 
 ---
-👨‍💻 Developed by **Kartik Samnotra** | [GitHub](https://github.com/KaRTiK0821)  
+👨‍💻 Developed by **Kartik Samnotra** | [GitHub](https://github.com/KaRTiK0821) 
+📚 Used in IEEE Research by IIT Jammu named "Infant Cry Scene Detection and Classification Using High-Frequency Wavelet Scattering Transform and Convolutional Recurrent Neural Network"
 🚀 *Feel free to contribute, fork, and improve this project!*
 
